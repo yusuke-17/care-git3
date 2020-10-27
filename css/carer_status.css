@@ -1,0 +1,203 @@
+#blockskip a {
+      position: absolute;
+      top: 0;
+      left: -9999px;
+      display: block;
+      text-align: center;
+  }
+
+  #blockskip a:focus {
+      z-index: 11000;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  .btn-rounded{
+      border-radius : 1000px;
+  }
+
+
+  .color__btn {
+      background-color: #80CBC4;
+      color: #212121;
+  }
+  .color__navi {
+      background-color: #fff;
+  }
+  .color__logo {
+      color: #212121;
+  }
+  .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+      background-color: transparent;
+      border-bottom : 3px solid #303F9F;
+  }
+
+  .toggler__txt{
+      display : block;
+      font-size : 0.5em;
+  }
+  .nav__main {
+    font-size: 1.2em;
+  }
+  .nav__sub{
+      font-size : 0.8em;
+  }
+  .mr-1 {
+  margin-right: ($spacer * .5) !important;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+table.carer_table thead th {
+  /* 縦スクロール時に固定する */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* tbody内のセルより手前に表示する */
+  z-index: 1;
+}
+th,td {
+  padding: 1rem 2rem;
+  /*text-align: center;*/
+  border-bottom: 1px solid #ddd;
+}
+th {
+  font-weight: normal;
+  font-size: .875rem;
+  color: #666;
+  background: #99FFCC;
+}
+.care-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: dashed 1px #67c5ff;
+  background: #f2fcff;
+  border-radius: 3px;
+  transition: .4s;
+}
+.care-button :hover {
+  background: #cbedff;
+  color: #FFF;
+}
+
+.cp_iptxt {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.cp_iptxt input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+}
+.ef input[type='text']:focus {
+	border: 1px solid #da3c41;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgba(218,60,65, .5);
+}
+
+.care-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #67c5ff;
+  border: dashed 1px #67c5ff;
+  background: #f2fcff;
+  border-radius: 3px;
+  transition: .4s;
+}
+.care-button :hover {
+  background: #cbedff;
+  color: #FFF;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #67c5ff;
+  border: dashed 1px #67c5ff;
+  background: #f2fcff;
+  border-radius: 3px;
+  transition: .4s;
+}
+.download-button :hover {
+  background: #cbedff;
+  color: #FFF;
+}
+
+.daily_edit {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: dashed 1px #67c5ff;
+  background: #f2fcff;
+  border-radius: 3px;
+  transition: .4s;
+}
+.daily_edit :hover {
+  background: #cbedff;
+  color: #FFF;
+}
+
+.delete_btn{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #fff;
+  border: dashed 1px #67c5ff;
+  background: #F00;
+  border-radius: 3px;
+  transition: .4s;
+}
+.delete_btn :hover {
+  color: #000;
+}
+
+
+img {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: .5rem;
+}
+
+  @media (max-width: 767.98px) {
+      .nav__main{
+      font-size : 1em;
+      }
+      .nav__sub{
+          font-size : 1em;
+      }
+      .navbar.navbar-light .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+          background-color: #efefef;
+          border-bottom : none;
+      }
+      table td, table th {
+        display: block;
+        width: 100%;
+      }
+      th,td {
+        text-align: start;
+      }
+
+      table thead tr.carer_status{
+        display:none;
+      }
+      .carer-date {
+        background: #99FFCC;
+      }
+  }
